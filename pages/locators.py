@@ -9,3 +9,7 @@ class LoginPageLocators():
     REG_ADRES = (By.CSS_SELECTOR, "#id_registration-email")
     REG_PASS1 = (By.CSS_SELECTOR, "#id_registration-password1")
     REG_PASS2 = (By.CSS_SELECTOR, "#id_registration-password2")
+
+
+class ProductPageLocators():
+    ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
