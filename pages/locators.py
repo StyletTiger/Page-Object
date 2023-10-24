@@ -1,15 +1,7 @@
 from selenium.webdriver.common.by import By
 
-class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-
-class LoginPageLocators():
-    LOGIN_ADRES = (By.CSS_SELECTOR, "#id_login-username")
-    LOGIN_PASS = (By.CSS_SELECTOR, "#id_login-password")
-    REG_ADRES = (By.CSS_SELECTOR, "#id_registration-email")
-    REG_PASS1 = (By.CSS_SELECTOR, "#id_registration-password1")
-    REG_PASS2 = (By.CSS_SELECTOR, "#id_registration-password2")
-
-
 class ProductPageLocators():
     ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    PRODUCT_NAME_IN_MESSAGE = (By.CSS_SELECTOR, "div.alertinner strong")
+    PRODUCT_NAME = (By.CSS_SELECTOR, "h1")
+    BASKET_TOTAL_MESSAGE = (By.CSS_SELECTOR, "div.alert-info p strong")
